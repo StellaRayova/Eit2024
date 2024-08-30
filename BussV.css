@@ -1,0 +1,149 @@
+.div1card_el7 {
+    width: 100%;
+    position: relative;
+    background-color: white;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+}
+
+.image-container {
+    width: 100%;
+}
+
+.img_el7 {
+    position: relative;
+}
+
+.image-container img {
+    width: 100%;
+    object-fit: cover;
+}
+.txdec_el7{
+    text-decoration: none;
+}
+.overlay_el7 {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.txt_el7 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.txt_head_el7 {
+    font-size: 70px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+}
+
+.text_slogan_el7 {
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.btn_el7 {
+    width: 16%;
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+}
+
+.mlr_el7 {
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 2%;
+}
+
+.intro_el7 {
+    font-family: 'wittgenstein';
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.why-choose_el7 h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.why-choose_el7 ul {
+    font-family: 'wittgenstein';
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.ymlr-el7 {
+    margin-top: 2%;
+    margin-left: 6%;
+    margin-right: 6%;
+}
+.ullikk_el7 {
+    font-size: 22px;
+    font-family: 'wittgenstein';
+    margin-left: 3%;
+}
+
+.tdn {
+    text-decoration: none;
+    color: inherit;
+}
+.h2b_el7 {
+    margin-bottom: 0;
+}
+.hbt_el7 {
+    padding-bottom: 1%;
+}
+
+@media (max-width: 768px) {
+    .intro_el7 {
+        font-size: 18px;
+    }
+    .why-choose_el7 h2 {
+        font-size: 24px;
+    }
+    .ullikk_el7 {
+        font-size: 18px;
+    }
+    .txt_head_el7 {
+        font-size: 24px;
+    }
+    .text_slogan_el7 {
+        font-size: 18px;
+    }
+}
+
+@media (max-width: 1024px) {
+    .btn_el7 {
+        width: 25%;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 650px) {
+    .btn_el7 {
+        width: 30%;
+        font-size: 12px;
+    }
+}
+@media (max-width: 425px) {
+    .btn_el7 {
+        width: 40%;
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,344 @@
+.txt_el10 {
+    position: absolute;
+    top: 47%;
+    color: white;
+    font-size: 40px;
+    font-weight: bold;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+.img-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    padding: 0px;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.alert-blue {
+    background: #25D366 ; /* Bootstrap's primary blue color */
+    color: #fff; /* White text color for contrast */
+    font-size: 30px;
+  }
+.contactus-container {
+    position: relative;
+    width: 100%;
+    height: auto;
+}
+
+.react-tel-input .form-control {
+    position: relative;
+    font-size: 14px;
+    letter-spacing: .01rem;
+    margin-top: 0 !important;
+    margin-bottom: 0 !important;
+    padding-left: 48px;
+    margin-left: 0;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    line-height: 25px;
+    height: 35px;
+   width: 100%;
+    outline: none;
+  }
+  
+
+.contactus-image {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+}
+.form-control{
+    width: 100%;
+}
+
+.contactushead {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    font-size: 90px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    z-index: 2;
+    text-align: center;
+}
+
+.contactus-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 1;
+}
+
+.img_el10 {
+    width: 100% !important;
+    height: auto;
+    object-fit: cover;
+}
+
+.wfaj {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+
+.wf1aj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.fdcon{
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+.whatsapp-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #25D366;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: opacity 0.3s, background-color 0.3s, color 0.3s;
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.whatsapp-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    transition: opacity 0.3s;
+}
+
+.whatsapp-logo:hover {
+    opacity: 0.8;
+}
+
+.whatsapp-text {
+    font-weight: bold;
+    white-space: nowrap;
+    transition: color 0.3s;
+}
+
+.whatsapp-button:hover .whatsapp-text {
+    color: #00e676;
+}
+
+.whatsapp-button:hover {
+    opacity: 0.9;
+    background-color: #00796b;
+}
+
+.uni {
+    font-size: 22px;
+    font-family: "wittgenstein";
+}
+
+.body {
+    overflow-x: hidden;
+}
+
+.location-iconru {
+    height: 50px;
+    width: 40px;
+    margin: 0 auto 10px;
+}
+
+.contactushead {
+    font-size: 90px;
+    font-weight: 600;
+    font-family: 'Franklin Gothic Medium';
+    padding-right: 130px;
+}
+
+.btn2ruth {
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.rrr {
+    border: 1px solid #e0e0e0;
+    border-radius: 10px;
+    background: #00C1FB;
+    color: black;
+    margin-top: 50px;
+    height: 350px;
+    margin-right: 20px;
+}
+
+.cbru {
+    border-radius: 10px;
+    padding: 20px;
+    background:  #00C1FB;
+    color: black;
+    margin-left: 30px;
+}
+
+.getruth1 {
+    font-family: Franklin Gothic Medium;
+}
+
+.cardruth {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+/* Media Queries for responsiveness */
+@media (max-width: 480px) {
+    .containerru {
+        width: 100%;
+    }
+
+    .cardru {
+        margin: 0;
+    }
+
+    .h1ru {
+        font-size: 49px;
+    }
+
+    .overlay {
+        padding: 20px;
+    }
+
+    .location-icon {
+        width: 30px;
+        height: 30px;
+    }
+
+    .rrr {
+        text-align: center;
+        margin: 20px;
+        padding: 20px;
+        height: 500px;
+    }
+
+    .paa {
+        padding-top: 32px;
+    }
+}
+
+@media (max-width: 320px) {
+    .containerru {
+        width: 105%;
+        margin: -8px;
+    }
+
+    .contactushead {
+        font-size: 35px;
+        font-family: 'Franklin Gothic Medium';
+        font-weight: 600;
+    }
+
+    .btnruth {
+        height: 45px;
+        font-size: 18px;
+    }
+}
+
+@media (min-width: 344px) {
+    .rrr {
+        height: 365px;
+    }
+}
+
+@media (max-width: 375px) {
+    .contactushead {
+        font-size: 45px;
+    }
+
+    .rrr {
+        height: 350px;
+    }
+}
+
+@media (max-width: 425px) {
+    .contactushead {
+        font-size: 43px;
+    }
+
+    .rrr {
+        height: 350px;
+    }
+}
+
+@media (max-width: 447px) {
+    .contactushead {
+        font-size: 43px;
+    }
+
+    .rrr {
+        height: 375px;
+    }
+}
+
+@media (min-width: 448px) and (max-width: 768px) {
+    .contactushead {
+        font-size: 50px;
+    }
+}
+
+@media (min-width: 769px) and (max-width: 1023px) {
+    .contactushead {
+        font-size: 58px;
+    }
+}
+
+@media (min-width: 481px) and (max-width: 767px) {
+    .rrr {
+        margin-top: 40px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .contactushead {
+        font-size: 62px;
+    }
+}
+
+@media (min-width: 1440px) {
+    .contactushead {
+        font-size: 79px;
+    }
+}
+
+@media (orientation: landscape) {
+    .h1ru {
+        font-size: 70px;
+        padding-right: 455px;
+    }
+}
+
+@media (min-width: 321px) and (max-width: 329px) {
+    .btn2ruth {
+        padding: 8px 2px;
+        border-radius: 5px;
+    }
+}
+
+@media (max-width: 768px) {
+    .head4ruth {
+        font-size: 22px;
+        font-weight: 600;
+    }
+
+    .head5ruth {
+        font-size: 16px;
+    }
+}

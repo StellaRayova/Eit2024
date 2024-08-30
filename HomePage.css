@@ -1,0 +1,579 @@
+/* Base Styles */
+
+/* .div1card_el3 {
+  width: 100%;
+  position: relative;
+  background-color: white;
+  overflow: hidden;
+  padding: 0;
+  margin: 0;
+}
+.img_el3 {
+  position: relative;
+}
+.overlay_el3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0.5;
+  background-color: black;
+}
+.txt_el3 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  text-align: center;
+  padding: 20px;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 0;
+}
+.txt_head_el3 {
+  font-size: 70px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 700;
+}
+.text_slogan_el3{
+  font-size: 35px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+}
+.btn_el3 {
+  width: 45%;
+  font-size: 24px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: 400;
+} */
+
+.bg {
+    /* background-color: rgb(227, 227, 228); */
+    background-color: white;
+  }
+  
+  .body {
+    overflow-x: hidden;
+  }
+  
+  .image-container {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
+  
+  .img-fluid {
+    width: 100%;
+    height: auto;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5); /* Overlay color */
+  }
+  
+  .txt-el3 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+    color: white;
+   
+  }
+  
+  .heading_el3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 70px;
+    font-weight: 600;
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  }
+  
+  .slogan_el3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 400;
+  }
+  
+  .btn-el3 {
+    background-color: #3005DE;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+  }
+  
+  .card-el3 {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 180px;
+  }
+  
+  .card-content-el3 {
+    padding: 16px;
+    text-align: center;
+  }
+  
+  .card-name-el3 {
+    margin: 0;
+    font-size: 22px; /* 20px */
+    color: #0D6EFD;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+  }
+  
+  .card-image-el3 {
+    margin-top: 8px;
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .card1-el3 {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    background:#00c1fb;;
+    
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    max-width: 100%;
+    width: 600px;
+    color: white;
+
+  }
+  .greenc{
+    background-color:#00c1fb;;
+  }
+
+
+  
+  .cd1-el3 {
+    padding: 16px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    text-align: center;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    color: white;
+    max-width: 100%;
+    width: 500px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .text-primary {
+color: white;
+}
+  
+  .card1-content-el3 {
+    padding: 16px;
+    text-align: center;
+    font-size: 24px;
+    background:#00c1fb;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: white;
+  }
+
+  
+  .rounded {
+    background-color: #283618;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    margin-bottom: 10px;
+  }
+  .rounded2 {
+    background-color: #bc6c25;
+    color: rgb(255, 255, 255);
+    margin-bottom: 10px;
+  }
+  .text-primary {
+    color: white;
+}
+  
+  .r-el3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .font-el3 {
+    font-size: 22px;
+    font-family: 'wittgenstein';
+    font-weight: 400;
+  }
+  
+  .font2-el3 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 400;
+  }
+  .textdeck_ell3{
+    text-decoration: none;
+  }
+  .head-el3 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+  }
+  
+  /* Spacing adjustments */
+  .mt-4 {
+    margin-top: 1.5rem;
+  }
+  
+  .row {
+    margin-left: 0;
+    margin-right: 0;
+  }
+  
+  .col-md-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  
+  /* Overlapping Card Container */
+  .overlap-card-container {
+    position: relative;
+    display: flex;
+    justify-content: center; 
+    align-items: flex-start; /* Adjusted to better align with the text */
+    text-align: left;
+    margin-top: 60px; /* Adjust as needed */
+  }
+  
+  .overlap-image {
+    position: absolute;
+    left: 17%; /* Adjust to control the overlap amount */
+    top: 43%;
+    transform: translateY(-50%);
+    width: 25%; /* Adjust width as needed */
+    height: auto;
+    z-index: 1; /* Ensure the image is on top */
+  }
+
+  .cdbtn-el3{
+    color: black;
+    background-color: white;
+    font-weight: 700;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 16px;
+    padding: 10px 20px; /* Some padding */
+    border: none; /* Remove border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s ease;
+  }
+
+  .cdbtn-el3:hover {
+    background-color: blue; /* Darker green background */
+    color: #fff; /* Text color remains white */
+}
+  
+  .overlap-card {
+    padding-left: 9%;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    /* background-color: #ACC0FE; */
+    background: #00c1fb;  
+    z-index: 0; 
+    max-width: 620px; /* Adjust width as needed */
+    text-align: center;
+    height: 300px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    color: white;
+    font-size: 22px;
+    font-family: 'wittgenstein';
+    margin-left: 165px;
+  }
+  
+  .overlap-card h2 {
+    margin-top: 0;
+  }
+  
+  .overlap-card p {
+    margin-bottom: 0;
+  }
+  
+  .btn_el3 {
+    width: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    padding: 10px;
+    color: black;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  }
+  
+  .btn1-el3 {
+    width: 30%;
+    font-size: 22px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 700;
+    border-radius: 8px;
+  }
+  
+  
+  @media (max-width:1420px){
+    .txt-el3 {
+      left: 35%;
+    }
+    /* .col-md-3 {
+      flex: 2 1 auto;
+      width: 34%;
+  } */
+  }
+  @media (min-width: 1025px) and (max-width:1399px) {
+  
+    .r-el3 {
+      justify-content: center;
+    }
+    
+    .overlap-image {
+      left: 10%;
+  }
+
+  }
+  
+  /* Responsive adjustments */
+  @media (min-width: 914px) and (max-width:1024px) {
+    
+    .txt-el3 {
+      left: 27%;
+    }
+    
+    .heading_el3 {
+        font-size: 50px;
+    }
+  
+    .slogan_el3 {
+        font-size: 30px;
+    }
+  
+    .btn1-el3 {
+        width: 40%;
+    }
+    .r-el3 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  .overlap-image {
+    position: absolute;
+    left: 5%;
+    top: 43%;
+    transform: translateY(-50%);
+    width: 34%;
+    height: auto;
+    z-index: 1;
+  }
+  .overlap-card {
+    padding-left: 9%;
+    font-size: 22px;
+    font-family: 'wittgenstein';
+    margin-left: 231px;
+  }
+  }
+  
+  @media (min-width:679px) and (max-width:955px){
+    
+    .heading_el3 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 40px;
+      font-weight: 600;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+    } 
+  
+    .txt-el3 {
+      left: 28%;
+    }
+  }
+  
+  @media (min-width:769px) and (max-width:912px){
+  
+    /* .col-md-3 {
+      flex: 0 0 auto;
+      width: 50%;
+  } */
+  .r-el3 {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  }
+  
+  @media 
+  (max-width: 768px) {
+    .card-el3 {
+        width: 100%;
+        margin: 10px 0;
+    }
+  
+    .card-name-el3 {
+        font-size: 1.125rem; /* 18px */
+    }
+  
+    .overlap-image {
+        width: 40%; /* Adjust size for medium screens */
+        left: 3%; /* Adjust overlap for medium screens */
+    }
+  
+    .overlap-card {
+      margin-left: 24%;
+      padding-left: 110px;
+      max-width: 70%;
+  }
+    .r-el3 {
+      display: flex;
+      flex-direction: row;
+      flex-wrap: wrap;
+      justify-content: center;
+  }
+  
+  .txt-el3 {
+    left: 28%;
+  }
+  
+  .head-el3 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+  }
+  .btn1-el3 {
+    width: 50%;
+  }
+  
+  .heading_el3 {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    font-weight: 600;
+    display: flex;
+    justify-content: left;
+    align-items: left;
+  }
+  }
+  
+  @media (min-width: 577px) and (max-width:767px) {
+    .heading_el3 {
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      font-size: 24px;
+      font-weight: 600;
+      display: flex;
+      justify-content: left;
+      align-items: left;
+  }
+  }
+  
+  @media (min-width: 507px) and (max-width:576px){
+  
+    .overlap-card {
+      margin-left: 2%;
+      padding: 10px;
+      max-width: 100%;
+      margin-top: 44%;
+  }
+  
+  .overlap-image {
+    width: 64%;
+    left: 18%;
+    top: 12%;
+  }
+  
+  .card-name-el3 {
+    font-size: 1rem; /* 16px */
+  }
+  
+  .txt-el3 h2 {
+    font-size: 1.5rem; /* 24px */
+  }
+  
+  .txt-el3 p {
+    font-size: 1rem; /* 16px */
+  }
+  
+  .head-el3 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+  }
+  .btn1-el3 {
+    width: 80%;
+  }
+  
+  
+  } 
+  
+  
+  
+  @media (max-width: 506px) {
+    .card-name-el3 {
+        font-size: 1rem; /* 16px */
+    }
+  
+    .txt-el3 h2 {
+        font-size: 1.5rem; /* 24px */
+    }
+  
+    .txt-el3 p {
+        font-size: 1rem; /* 16px */
+    }
+  
+    .overlap-image {
+      width: 64%;
+      left: 18%;
+      top: 8%;
+  }
+  .overlap-card {
+    margin-left: 2%;
+    padding: 10px;
+    max-width: 100%;
+    margin-top: 38%;
+  }
+  .head-el3 {
+    font-size: 24px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+  }
+  .btn1-el3 {
+    width: 80%;
+  }
+  
+  }
+ 
+  
+  
+  
+  

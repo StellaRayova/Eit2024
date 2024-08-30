@@ -1,0 +1,133 @@
+.el6-bc {
+  background: #00c1fb;
+}
+.el6-head {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+  color: white;
+}
+.el6-head2 {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  text-align: left;
+}
+.el6-txt {
+  font-family: wittgenstein;
+  font-size: 22px;
+  text-align: left;
+  color: white;
+}
+.el6-txt2 {
+  font-family: wittgenstein;
+  font-size: 22px;
+  text-align: left;
+}
+.el6-hdimg {
+  position: absolute;
+  text-align: center;
+  top: 35%;
+  left: 22%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 60px;
+  font-weight: 600;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.el6-dectx {
+  text-decoration: none;
+}
+.el6-btnpr {
+  position: absolute;
+  text-align: center;
+  top: 48%;
+  left: 20.5%;
+  width: 350px;
+  font-size: 30px;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+@media (min-width: 320px) and (max-width: 767px) {
+  .el6-head {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .el6-head2 {
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .el6-txt {
+    font-size: 22px;
+  }
+  .el6-txt2 {
+    font-size: 22px;
+  }
+}
+@media (min-width: 320px) and (max-width: 430px) {
+  .el6-hdimg {
+    top: 29%;
+    left: 30%;
+    font-size: 24px;
+    font-weight: 600;
+  }
+  .el6-btnpr {
+    font-size: 18px;
+    left: 29.5%;
+    top: 57%;
+    width: 160px;
+  }
+}
+@media (min-width: 431px) and (max-width: 637px) {
+  .el6-hdimg {
+    top: 27%;
+    left: 30%;
+    font-size: 32px;
+    font-weight: 600;
+  }
+  .el6-btnpr {
+    font-size: 20px;
+        left: 28.5%;
+        top: 61%;
+        width: 190px;
+  }
+}
+@media (min-width: 638px) and (max-width: 790px) {
+  .el6-hdimg {
+    top: 43%;
+    left: 24%;
+    font-size: 36px;
+    font-weight: 600;
+  }
+  .el6-btnpr {
+    top: 61%;
+    left: 24.5%;
+    font-size: 30px;
+    width: 250px;
+  }
+}
+@media (min-width: 791px) and (max-width: 1111px) {
+  .el6-hdimg {
+    top: 47%;
+    left: 24%;
+    font-size: 39px;
+    font-weight: 600;
+  }
+  .el6-btnpr {
+    top: 57%;
+    left: 23.5%;
+    font-size: 30px;
+    width: 260px;
+  }
+}
+@media (min-width: 1112px) and (max-width: 1440px) {
+  .el6-hdimg {
+    top: 37%;
+  }
+  .el6-btnpr {
+    left: 21.5%;
+    width: 400px;
+  }
+}

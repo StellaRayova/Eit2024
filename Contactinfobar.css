@@ -1,0 +1,116 @@
+.body {
+    overflow: hidden;
+}
+
+
+
+.contactinfobar-fixed {
+    position: sticky;
+    top: 50px;
+    width: 100%;
+    z-index: 500;
+    background-color: #3b2fe4;
+    color: white;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    height: 46px;
+    
+}
+
+.bldel2 {
+    /* font-weight: bold; */
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.bld1el2 {
+    font-weight: bold;
+    font-size: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.gapel2 {
+    margin-left: 2%;
+}
+
+.infel2 {
+    width: 30px;
+    /* height: 30px; */
+    margin-bottom: 5px;
+    margin-right: 3px;
+
+}
+
+
+
+@media (min-width:1054px) and (max-width:1199px){
+    .contactinfobar-fixed {
+        background-color: #3b2fe4;
+        box-shadow: 0 2px 4px #0000001a;
+        color: #fff;
+        height: 46px;
+        position: sticky;
+        top: 76px;
+        width: 100%;
+        z-index: 500;
+    }
+}
+
+
+
+@media ( max-width:767px) {
+    .contactinfobar-fixed{
+        display: none;
+    }
+    
+}
+@media ( min-width:768px) and (max-width:769px){
+   
+    .bldel2 {
+        font-weight: bold;
+        font-size: 12px;
+        text-decoration: none;
+        color: white;
+    } 
+    .bld1el2 {
+        font-weight: bold;
+        font-size: 20px;
+        text-decoration: none;
+        color: white;
+    }
+    .contactinfobar-fixed{
+        position: relative;
+        top: 0px;
+        width: 100%;
+        z-index: 500;
+        color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: 39px;
+    }
+}
+@media ( min-width:1054px) and (max-width:1152px){
+    .contactinfobar-fixed{
+        position: relative;
+        top: 55px;
+        width: 100%;
+        z-index: 500;
+        color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: 46px;
+    }
+
+}
+
+@media ( min-width:1153px) and (max-width:1199px){
+    .contactinfobar-fixed{
+        position: relative;
+        top: 50px;
+        width: 100%;
+        z-index: 500;
+        color: white;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+        height: 45px;
+    }
+
+}
